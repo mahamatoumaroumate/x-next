@@ -11,7 +11,7 @@ export const metadata = {
   title: 'X Clone',
   description: 'X Clone developer ',
 }
-
+export const dynamic = 'force-dynamic'
 export default function RootLayout({ children }) {
   return (
     <SessionWrapper>
